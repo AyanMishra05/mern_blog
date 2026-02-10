@@ -46,7 +46,17 @@ export default function Header() {
         </Button>
 
         <Link to="/sign-in">
-          <Button className="purpleToBlue">Sign In</Button>
+          <Button
+            className="w-24 h-10 relative inline-flex items-center justify-center p-0.5
+                overflow-hidden text-sm font-medium rounded-lg
+                text-gray-900 dark:text-white
+                bg-gradient-to-br from-purple-600 to-blue-500
+                hover:text-white
+                focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+            outline
+          >
+            Sign In
+          </Button>
         </Link>
 
         <NavbarToggle />
